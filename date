@@ -1,0 +1,4 @@
+$start = strtotime('2010-01-25');
+$end = strtotime('2010-02-20');
+
+$days_between = ceil(abs($end - $start) / 86400);
